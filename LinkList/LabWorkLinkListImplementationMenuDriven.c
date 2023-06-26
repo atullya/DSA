@@ -57,6 +57,9 @@ int main() {
     case 8:
     search();
     break;
+    case 9:
+    printf("Exiting...\n");
+    return;
     default:
     printf("Invalid Choice!!\n");
         break;
